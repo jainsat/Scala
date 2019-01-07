@@ -1,0 +1,121 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/satya.jain/Documents/scalaw/recfun/src/test/scala/recfun/BalanceSuite.scala:3:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.FunSuite[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/satya.jain/Documents/scalaw/recfun/src/test/scala/recfun/BalanceSuite.scala:6:12: object junit is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.junit.runner.RunWith[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/satya.jain/Documents/scalaw/recfun/src/test/scala/recfun/BalanceSuite.scala:7:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.junit.JUnitRunner[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/satya.jain/Documents/scalaw/recfun/src/test/scala/recfun/BalanceSuite.scala:10:28: not found: type FunSuite[0m
+[0m[[0m[31merror[0m] [0m[0mclass BalanceSuite extends FunSuite {[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/satya.jain/Documents/scalaw/recfun/src/test/scala/recfun/BalanceSuite.scala:9:2: not found: type RunWith[0m
+[0m[[0m[31merror[0m] [0m[0m@RunWith(classOf[JUnitRunner])[0m
+[0m[[0m[31merror[0m] [0m[0m ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/satya.jain/Documents/scalaw/recfun/src/test/scala/recfun/BalanceSuite.scala:11:10: not found: value Main[0m
+[0m[[0m[31merror[0m] [0m[0m  import Main.balance[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/satya.jain/Documents/scalaw/recfun/src/test/scala/recfun/BalanceSuite.scala:13:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("balance: '(if (zero? x) max (/ 1 x))' is balanced") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/satya.jain/Documents/scalaw/recfun/src/test/scala/recfun/BalanceSuite.scala:14:12: not found: value balance[0m
+[0m[[0m[31merror[0m] [0m[0m    assert(balance("(if (zero? x) max (/ 1 x))".toList))[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/satya.jain/Documents/scalaw/recfun/src/test/scala/recfun/BalanceSuite.scala:17:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("balance: 'I told him ...' is balanced") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/satya.jain/Documents/scalaw/recfun/src/test/scala/recfun/BalanceSuite.scala:18:12: not found: value balance[0m
+[0m[[0m[31merror[0m] [0m[0m    assert(balance("I told him (that it's not (yet) done).\n(But he wasn't listening)".toList))[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/satya.jain/Documents/scalaw/recfun/src/test/scala/recfun/BalanceSuite.scala:21:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("balance: ':-)' is unbalanced") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/satya.jain/Documents/scalaw/recfun/src/test/scala/recfun/BalanceSuite.scala:22:13: not found: value balance[0m
+[0m[[0m[31merror[0m] [0m[0m    assert(!balance(":-)".toList))[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/satya.jain/Documents/scalaw/recfun/src/test/scala/recfun/BalanceSuite.scala:25:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("balance: counting is not enough") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/satya.jain/Documents/scalaw/recfun/src/test/scala/recfun/BalanceSuite.scala:26:13: not found: value balance[0m
+[0m[[0m[31merror[0m] [0m[0m    assert(!balance("())(".toList))[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/satya.jain/Documents/scalaw/recfun/src/test/scala/recfun/CountChangeSuite.scala:3:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.FunSuite[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/satya.jain/Documents/scalaw/recfun/src/test/scala/recfun/CountChangeSuite.scala:6:12: object junit is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.junit.runner.RunWith[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/satya.jain/Documents/scalaw/recfun/src/test/scala/recfun/CountChangeSuite.scala:7:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.junit.JUnitRunner[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/satya.jain/Documents/scalaw/recfun/src/test/scala/recfun/CountChangeSuite.scala:10:32: not found: type FunSuite[0m
+[0m[[0m[31merror[0m] [0m[0mclass CountChangeSuite extends FunSuite {[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/satya.jain/Documents/scalaw/recfun/src/test/scala/recfun/CountChangeSuite.scala:9:2: not found: type RunWith[0m
+[0m[[0m[31merror[0m] [0m[0m@RunWith(classOf[JUnitRunner])[0m
+[0m[[0m[31merror[0m] [0m[0m ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/satya.jain/Documents/scalaw/recfun/src/test/scala/recfun/CountChangeSuite.scala:11:10: not found: value Main[0m
+[0m[[0m[31merror[0m] [0m[0m  import Main.countChange[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/satya.jain/Documents/scalaw/recfun/src/test/scala/recfun/CountChangeSuite.scala:12:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("countChange: example given in instructions") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/satya.jain/Documents/scalaw/recfun/src/test/scala/recfun/CountChangeSuite.scala:13:12: not found: value countChange[0m
+[0m[[0m[31merror[0m] [0m[0m    assert(countChange(4,List(1,2)) === 3)[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/satya.jain/Documents/scalaw/recfun/src/test/scala/recfun/CountChangeSuite.scala:16:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("countChange: sorted CHF") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/satya.jain/Documents/scalaw/recfun/src/test/scala/recfun/CountChangeSuite.scala:17:12: not found: value countChange[0m
+[0m[[0m[31merror[0m] [0m[0m    assert(countChange(300,List(5,10,20,50,100,200,500)) === 1022)[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/satya.jain/Documents/scalaw/recfun/src/test/scala/recfun/CountChangeSuite.scala:20:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("countChange: no pennies") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/satya.jain/Documents/scalaw/recfun/src/test/scala/recfun/CountChangeSuite.scala:21:12: not found: value countChange[0m
+[0m[[0m[31merror[0m] [0m[0m    assert(countChange(301,List(5,10,20,50,100,200,500)) === 0)[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/satya.jain/Documents/scalaw/recfun/src/test/scala/recfun/CountChangeSuite.scala:24:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("countChange: unsorted CHF") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/satya.jain/Documents/scalaw/recfun/src/test/scala/recfun/CountChangeSuite.scala:25:12: not found: value countChange[0m
+[0m[[0m[31merror[0m] [0m[0m    assert(countChange(300,List(500,5,50,100,20,200,10)) === 1022)[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/satya.jain/Documents/scalaw/recfun/src/test/scala/recfun/PascalSuite.scala:3:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.FunSuite[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/satya.jain/Documents/scalaw/recfun/src/test/scala/recfun/PascalSuite.scala:6:12: object junit is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.junit.runner.RunWith[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/satya.jain/Documents/scalaw/recfun/src/test/scala/recfun/PascalSuite.scala:7:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.junit.JUnitRunner[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/satya.jain/Documents/scalaw/recfun/src/test/scala/recfun/PascalSuite.scala:10:27: not found: type FunSuite[0m
+[0m[[0m[31merror[0m] [0m[0mclass PascalSuite extends FunSuite {[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/satya.jain/Documents/scalaw/recfun/src/test/scala/recfun/PascalSuite.scala:9:2: not found: type RunWith[0m
+[0m[[0m[31merror[0m] [0m[0m@RunWith(classOf[JUnitRunner])[0m
+[0m[[0m[31merror[0m] [0m[0m ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/satya.jain/Documents/scalaw/recfun/src/test/scala/recfun/PascalSuite.scala:11:10: not found: value Main[0m
+[0m[[0m[31merror[0m] [0m[0m  import Main.pascal[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/satya.jain/Documents/scalaw/recfun/src/test/scala/recfun/PascalSuite.scala:12:5: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m    test("pascal: col=0,row=2") {[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/satya.jain/Documents/scalaw/recfun/src/test/scala/recfun/PascalSuite.scala:13:14: not found: value pascal[0m
+[0m[[0m[31merror[0m] [0m[0m      assert(pascal(0,2) === 1)[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/satya.jain/Documents/scalaw/recfun/src/test/scala/recfun/PascalSuite.scala:16:5: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m    test("pascal: col=1,row=2") {[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/satya.jain/Documents/scalaw/recfun/src/test/scala/recfun/PascalSuite.scala:17:14: not found: value pascal[0m
+[0m[[0m[31merror[0m] [0m[0m      assert(pascal(1,2) === 2)[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/satya.jain/Documents/scalaw/recfun/src/test/scala/recfun/PascalSuite.scala:20:5: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m    test("pascal: col=1,row=3") {[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/satya.jain/Documents/scalaw/recfun/src/test/scala/recfun/PascalSuite.scala:21:14: not found: value pascal[0m
+[0m[[0m[31merror[0m] [0m[0m      assert(pascal(1,3) === 3)[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m40 errors found[0m

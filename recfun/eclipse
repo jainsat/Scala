@@ -1,0 +1,12 @@
+[0m[[0minfo[0m] [0mLoading project definition from /Users/satya.jain/Documents/scalaw/recfun/project[0m
+[0m[[0minfo[0m] [0mCompiling 8 Scala sources to /Users/satya.jain/Documents/scalaw/recfun/project/target/scala-2.10/sbt-0.13/classes...[0m
+[0m[[33mwarn[0m] [0m/Users/satya.jain/Documents/scalaw/recfun/project/CommonBuild.scala:3: trait Build in package sbt is deprecated: Use .sbt format instead[0m
+[0m[[33mwarn[0m] [0mtrait CommonBuild extends Build {[0m
+[0m[[33mwarn[0m] [0m                          ^[0m
+[0m[[33mwarn[0m] [0mone warning found[0m
+[0m[[0minfo[0m] [0mSet current project to progfun1-recfun (in build file:/Users/satya.jain/Documents/scalaw/recfun/)[0m
+> 
+> 
+> 
+> 
+> 
